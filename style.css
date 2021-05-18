@@ -1,15 +1,23 @@
 @charset "UTF-8";
 
+/*body*/
+
+body {
+  color: #e7ddd5;
+}
+
 /*fonts------------------------------------------------------------*/ 
 
 .headerFont {
   font-family: 'Montserrat', sans-serif;
   font-size: medium;
+  color: #0b7388;
 }
 
 .main, .links, .nav, .footer {
   font-family: 'Montserrat', sans-serif;
   font-family: 'Roboto', sans-serif;
+  color: #0b7388;
 }
 
 /*layout--------------------------------------------------------------------------*/
