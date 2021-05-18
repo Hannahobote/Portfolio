@@ -40,12 +40,15 @@
     
   </div>
 
-  <ul id="array-rendering" class="links">
+  <ul id="projects" class="links">
     <li v-for="item in items">
       {{ item.file }}
     </li>
   </ul>
   
+  <div id="footer" class="footer">
+    {{footer}}
+  </div>
   
   <script src="https://unpkg.com/vue@3.0.5"></script>
   <script src="app.js"></script>

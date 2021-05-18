@@ -7,7 +7,7 @@
   font-size: medium;
 }
 
-.main, .links, nav {
+.main, .links, .nav, .footer {
   font-family: 'Montserrat', sans-serif;
   font-family: 'Roboto', sans-serif;
 }
