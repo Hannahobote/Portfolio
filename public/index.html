@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+  <title>Portfolio</title>
+</head>
+<body>
+  
+  <div id="app"></div>
+
+  <ul id="navbar" class="links">
+    <li v-for="link in links">
+      <a v-bind:href="link.data">{{links.name}}</a>
+   
+    </li>
+  </ul>
+
+  <div id="intro" class="header headerFont">
+    <h1> {{name}}
+      <br>
+      {{description}}
+    <h1>
+  </div>
+
+  <div id="main" class="main">
+    {{main}}
+  </div>
+
+  <ul id="projects" class="links">
+    <li v-for="item in items">
+      {{ item.file }}
+    </li>
+  </ul>
+  
+  <div id="footer" class="footer">
+    {{footer}}
+  </div>
+  
+  <script src="https://unpkg.com/vue@3.0.5"></script>
+  <script src="../app.js"></script> <!--old seutup without single page components-->
+ <!-- <script src="../src/main.js"></script> -->
+</body>
+</html>
