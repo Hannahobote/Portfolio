@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+/*fonts------------------------------------------------------------*/ 
+
+.headerFont {
+  font-family: 'Montserrat', sans-serif;
+  font-size: medium;
+}
+
+.main, .links, nav {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*layout--------------------------------------------------------------------------*/
