@@ -3,7 +3,14 @@
 /*body-------------------------------------------------------------------------------------------------------------*/
 
 body {
+  /*https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_background_hero*/
   background-color: #ffffff;
+  background-image: url("/img/plantbg1.jpg");
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .grid-container {
@@ -22,24 +29,22 @@ body {
 }
 
 .header {
-  background-color: rgb(254, 255, 255);
+ /* background-color: rgb(254, 255, 255); */
   grid-area: header;
 }
 
 .nav {
-  background-color: rgb(254, 255, 255);
+   /* background-color: rgb(254, 255, 255); */
   grid-area: nav;
 }
 
 .main {
-  background-color: rgb(254, 255, 255);
+   /* background-color: rgb(254, 255, 255); */
   grid-area: main;
 }
 
 .footer {
   grid-area: footer;
-  /*position: fixed;
-  bottom: 0;*/
 } 
 
 /* .sidebar {
@@ -51,35 +56,22 @@ body {
 
 .headerFont {
   font-family: 'Montserrat', sans-serif;
-  font-size: medium;
-  color: #1b3c42;
+ /* color: #334986; */
+ color: #000000; 
+  justify-content: center;
+  text-align: center;
+  top: 50%;
+  left: 50%;
 }
 
 
 .main, .links, .nav, .footer, .header {
-  font-family: 'Montserrat', sans-serif;
+  /*font-family: 'Montserrat', sans-serif;*/
   font-family: 'Roboto', sans-serif;
   color: #1b3c42;
 }
 
+/*nav--------------------------------------------------------------------------*/
 .nav li a {
   color: #1b3c42;
 }
-
-/*nav--------------------------------------------------------------------------*/
-/* .nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-.nav li {
-  float: left;
-}
-
-.nav li a {
-  display: block;
-  padding: 8px;
-  background-color: #dddddd;
-} */
