@@ -27,8 +27,7 @@ body, html {
   position: relative;
 }
 
-/*
-grid system good to use for other projects.
+/*grid system good to use for other projects.*/
 .grid-container {
   display: grid;
   width: 100%;
@@ -37,6 +36,8 @@ grid system good to use for other projects.
   grid-template-areas:
   "nav nav"
   "header header"
+  "main main"
+  "main main"
   "main main"
   "footer footer"
   ;
@@ -56,7 +57,7 @@ grid system good to use for other projects.
 
 .footer {
   grid-area: footer;
-}*/
+}
 
 /*fonts------------------------------------------------------------*/ 
 
