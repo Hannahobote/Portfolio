@@ -4,12 +4,12 @@
 /*https://www.w3schools.com/howto/howto_css_full_page.asp*/
 body, html {
   height: 100%;
-  background-color: #faf6f6;
+  background-color: #ebebeb;
 }
 
 .indexbg {
   /*https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_background_hero*/
-  background-color: #ffffff;
+  background-color: #ebebeb;
   background-image: url("/img/plantbg1.jpg");
   height: 100%;
   background-position: center;
@@ -19,7 +19,7 @@ body, html {
 }
 
 .otherbg {
-  background-color: #faf6f6;
+  background-color: #ebebeb;
   background-image: url("/img/plantbg1a.jpg");
   height: 100%;
   background-position: center;
