@@ -20,6 +20,7 @@ body, html {
 
 .otherbg {
   background-color: #faf6f6;
+  background-image: url("/img/plantbg1a.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
