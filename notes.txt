@@ -1,0 +1,17 @@
+// bootsrap grid that will shink when its at smartphone size
+
+<div class="container-sm">
+  <div class="row">
+    <div class="col-sm">
+      Column
+    </div>
+    <div class="col-sm">
+      Column
+    </div>
+    <div class="col-sm">
+      Column
+    </div>
+  </div>
+</div>
+
+// nav bar 
