@@ -24,7 +24,7 @@ body, html {
 }
 
 .buildingbg {
-  background-image: url("/img/building2.jpg");
+  background-image: url("/img/building-cropped.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
